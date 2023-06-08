@@ -1,4 +1,4 @@
-const sent = '|/-\|/';
+const sent = '|/-\|/\|';
 let i = 0;
 
 const spinner = () => {
@@ -10,7 +10,6 @@ const spinner = () => {
     if (i === sent.length) {
       process.stdout.write('\n')
     }
-  
 }, 200);
 }
 
